@@ -1,0 +1,7 @@
+This is my personal resume and based on Michael DeCorte's res.cls class
+
+It is currently compiled with xelatex under Mac OS X and Linux, and can easily
+compiled with pdflatex with little modification except for Chinese fonts confi-
+gurations.
+
+Wang Xu

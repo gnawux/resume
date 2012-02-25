@@ -1,0 +1,174 @@
+\documentclass[a4paper,margin,line]{res}
+
+\usepackage{palatino}
+\usepackage{hologo}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\linespread{1.05} 
+
+\usepackage[xetex,%
+         plainpages=false,%
+%		 hidelinks=true,%
+        pdfstartview=FitH]{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\newcommand{\http}{http:/\hspace{-0.3ex}/}
+\newcommand{\hindent}{\mbox{\hspace{8ex}}}
+
+\begin{document}
+
+\name{WANG, XU \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.9in}|p{2.5in}}
+104, Building East 2, Jimenli,          & \textit{Mobile:} +86~13911635527\\
+Haidian District, Beijing, China        & \textit{Email:}  \href{mailto:gnawux@gmail.com}{gnawux@gmail.com} \\
+100088                                  & \textit{Homepage:} \href{http://wangxu.me/blog/}{\http{}wangxu.me/blog/} \\
+                                                                   
+\end{tabular}
+
+\section{\sc Summary}
+Having nearly 4 years experience on Hadoop HDFS development; Core developer of BigCloud team of China Mobile Research Institute; Focusing on metadata management of NameNode and volume management of DataNode in recent projects; Actively participating Hadoop community activities.
+
+Having been using and maintaining Linux system for more than 10 years; Developed with C/C++, Java, Python, Perl, and Skillful in Unix utilities such as sed, find.
+
+\section{\sc Objective}
+Jobs on {\sl Apache Hadoop} related development and mantaince, especially HDFS related; Or R\&D Job about distributed storage systems in Beijing.
+
+\section{\sc Current Occupation}
+\textbf{Hadoop Related Work}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] \emph{Researcher}\/ and \emph{Project Manager}\/ (2007~--~present) on Cloud Computing in \textit{China Mobile Research Insititute}, being responsible of \textit{Hadoop HDFS} related development and maintenance, and communicate with upstream community, includes evaluation and testing, bug fix, and feature development (Apache JIRA ID \href{https://issues.apache.org/jira/secure/ViewProfile.jspa?name=gnawux}{gnawux}):
+\begin{list2}
+\vspace*{.05in}
+\item 2010--2011, Feature of DataNode volume refreshment \href{https://issues.apache.org/jira/browse/HDFS-1362}{\tt HDFS-1362};
+\item 2008, Fixed a critical bug of Hadoop 0.18, which may lead to replica mistaken deleting: \href{https://issues.apache.org/jira/browse/HADOOP-4742}{\tt HADOOP-4742};
+\item Aprial 2008--present, Maintaining the CMRI distribution of Hadoop, including NameNodes synchronization patches:\\
+          \hindent\href{http://github.com/gnawux/hadoop-cmri}{\tt\http{}github.com/gnawux/hadoop-cmri}
+\item 2008--2009, Maintaining the CMRI Hadoop stress testing tool (Python/Java):\\
+          \hindent\href{http://code.google.com/p/hadoop-test/}{\tt\http{}code.google.com/p/hadoop-test/} 
+\item September 2010, Present in Hadoop in China (HIC 2010), introduced Hadoop related developments in China Mobile Research Institute:\\
+          \hindent\href{http://wangxu.me/blog/p/445}{\tt \http{}wangxu.me/blog/p/445}
+\item November 2009, Present on \href{http://wiki.apache.org/apachecon/ApacheRoadshowAsia09Beijing}{Apache Roadshow Asia 2009} (Nov, 2009), introduced Hadoop HDFS development in CMRI.
+\item Update the Unofficial CMRI Hadoop Team Blog:~\href{http://gnawux.info/hadoop/}{http:/$\!$/gnawux.info/hadoop/}
+\item Weblog on Hadoop related developments: \enskip {\href{http://gnawux.info/hadoop/}{\tt \http{}gnawux.info/hadoop/}}
+\end{list2}
+\end{list1}
+
+\textbf{Other Work}\\
+\vspace*{-.1in}
+\begin{list2}
+\item \textit{Linux Cluster Management}, \enskip Since 2010, Having been responsible for system management of the cloud cluster of China Mobile Research Institute, including the configuration maintenance, optimization of virtualization system and Hadoop platform;
+\item \textit{Cloud Storage}, \enskip Since 2010, as Project Manager and Architect, Having been responsible of Cloud Storage Project of China Mobile Research Institute;
+\item \textit{Book Writing}, \enskip Being responsible for Book of CMRI on Cloud related Technologies; 
+\item \textit{Translation}, \enskip Translating {\it Cassandra: The Definitive Guide}\/ for Turing Book (expect to finish in April, 2011) in spare time;
+\end{list2}
+
+\section{\sc Past Projects\\ and\\ Experience}
+
+\textbf{Linux \& Open Source related}\\
+\vspace*{-.1in}
+\begin{list2}
+\item /Linux/\enskip \href{http://wangxu.me/blog/?page\_id=168}{\textit{Life in Debian}}, ISBN: 978-7-115-19466-4, Published in September 2009. 
+\item /Linux/\enskip Organizer and Topic Contributor of \href{http://linuxfb.org}{LinuxFB: Monthly Salon of Linuxer in BUPT}.
+\item /Linux,VT,NoSQL/\enskip Techonology Author and Translater on Linux kernel, Filesystem, NoSQL, etc., Articles posted to \href{http://wangxu.me/blog/}{Personal Web Site (http:/$\!$/wanxu.me/blog/)} and Magazines.
+\item /\LaTeX/\enskip \href{http://code.google.com/p/latex-bupt}{\LaTeX\mbox{ } Template for Thesis of BUPT}, including code, examples, and manual. 
+\end{list2}
+
+{\bf Training Lecturer} \hfill {\bf 2005 -- 2007}\\
+Staff training or certification training on Linux and UMTS/TD-SCDMA Core Networks, Services, and Air interfaces, for operators and vendors, in Beijing, Guangdong, Wuhan, etc.
+
+{\bf Software Developer} \hfill {\bf 2002 - 2003}\\
+Having been responsible for development of wireless field test system, etc.
+
+\section{\sc Education}
+{\bf Beijing University of Posts and Telecommunications (BUPT)}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Ph.D., Circuits and Systems, 2002.09 --- 2007.07
+\end{list1}
+
+{\bf Beijing University of Technology}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.S., Electronic Engineering, 1998.09 --- 2002.07
+\end{list1}
+
+\section{\sc References}
+\textbf{Part of Articles}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Hadoop related technical writing (\href{http://wangxu.me/blog/p/tag/hadoop}{\tt\http{}wangxu.me/blog/p/tag/hadoop})
+\begin{list2}
+\vspace*{.05in}
+\item DataNode Volume Refreshment in HDFS-1326 (English):\\ 
+    \hindent\href{http://gnawux.info/hadoop/2010/12/datanode-volume-refreshment-in-hdfs-1362/}{\tt\http{}gnawux.info/hadoop/2010/12/datanode-volume-refreshment-in-hdfs-1362/}
+\item How to Decomission DataNodes in HDFS: \href{http://labs.chinamobile.com/mblog/225_18378}{\tt\http{}labs.chinamobile.com/mblog/225\_18378}
+%\item dfs.datanode.max.xcievers: An Undocumented Parameter of Hadoop: \\
+%	\hindent\href{http://labs.chinamobile.com/mblog/225_18094}{\tt\http{}labs.chinamobile.com/mblog/225\_18094}
+\vspace*{.05in}
+\end{list2}
+\item[] Articles on system management and version control, some of them are records of problem resolving and scripts:
+\begin{list2}
+\vspace*{.05in}
+\item Synchronizing SVN with SVM and the lock issue: \href{http://wangxu.me/blog/p/523}{\tt\http{}wangxu.me/blog/p/523}
+%\item Cmd line for operating multiple nodes: \href{http://wangxu.me/blog/p/166}{\tt\http{}wangxu.me/blog/p/166}
+\item 1 line scripts for log analysis: \href{http://wangxu.me/blog/p/145}{\tt\http{}//wangxu.me/blog/p/145}
+\vspace*{.05in}
+\end{list2}
+\end{list1}
+
+\textbf{Part of Translations}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] NoSQL, Hadoop, and Java related translations:
+\begin{list2}
+\vspace*{.05in}
+\item Cassandra by Example: \href{http://wangxu.me/blog/p/383}{\tt\http{}wangxu.me/blog/p/383}
+\item Observers: Making ZooKeeper Scale Even Further: \href{http://wangxu.me/blog/p/320}{\tt\http{}wangxu.me/blog/p/320}
+\item Avro: a New Format for Data Interchange: \href{http://wangxu.me/blog/p/279}{\tt\http{}wangxu.me/blog/p/279}
+\item Java SE 6 Hotspot${\,}^{TM}$ Virtual Machine Garbage Collection Tuning : \\
+    \hindent\href{http://wangxu.me/blog/p/209}{\tt\http{}wangxu.me/blog/p/209}
+\vspace*{.05in}
+\end{list2}
+\item[] Linux kernel, graphics and other software related translations:
+\begin{list2}
+\vspace*{.05in}
+\item LWN: The Fun of Null Pointers (1): \href{http://wangxu.me/blog/p/39}{\tt\http{}wangxu.me/blog/p/39}
+\item KernelTrap: Linux: The Journaling Block Device: \href{http://wangxu.me/blog/p/151}{\tt\http{}wangxu.me/blog/p/151}
+%\item LWN: GEM vs. TTM: \href{http://wangxu.me/blog/p/124}{\tt\http{}wangxu.me/blog/p/124}
+\item LWN: What is RCU, Fundamentally?: \enskip\href{http://wangxu.me/blog/p/122}{\tt\http{}wangxu.me/blog/p/122}
+\end{list2}
+\end{list1}
+{\small \textsf{Note: All the original articles are from Internet, and announced the info about original articles; and most articles, including those from LWN, cloudera has asked the authorization of original publishers}}
+
+\end{resume}
+
+\vfill
+\vfill
+\mbox{ }\hspace{100pt}	\small\Resume\ Generated with \hologo{XeLaTeX}
+
+\end{document}
+
