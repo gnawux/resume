@@ -5,20 +5,21 @@
 %		 hidelinks=true,%
         pdfstartview=FitH]{hyperref}
 
-\usepackage[CJKchecksingle]{xeCJK}
 
 \usepackage{palatino}
 \usepackage{hologo}
 
-%\usepackage[T1]{fontenc}
-%\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+
+\usepackage[CJKchecksingle]{xeCJK}
 
 \linespread{1.05} 
 
 %\XeTeXlinebreaklocale "zh"
 %\XeTeXlinebreakskip = 0pt plus 1pt
 
-\setCJKmainfont[BoldFont={FZSongHei-B07}]{FZBeiWeiKaiShu-S19}
+\setCJKmainfont[BoldFont={FZHei-B01}]{FZBeiWeiKaiShu-S19}
 %\setCJKmainfont[BoldFont={FZCuSong-B09}]{FZBaoSong-Z04}
 \setCJKsansfont[BoldFont={FZChaoCuHei-M10}]{FZHei-B01}
 \setCJKmonofont[BoldFont={FZCuYuan-M03}]{FZZhunYuan-M02}
@@ -63,62 +64,65 @@
 
 \section{个人介绍}
 
-接近4年的Hadoop HDFS开发经验，中国移动研究院大云团队核心开发成员，负责NameNode元数据管理和DataNode磁盘管理相关等方面的开发项目，与Hadoop开源社区中的国内外开发者保持密切联系。超过10年的Linux使用与维护经验，熟练使用C/C++, Java等多种开发语言，Python, Perl等脚本语言及各种Unix工具进行开发与日常维护工作。
+盛大云计算~(\href{http://www.grandcloud.cn}{\tt \http{}www.grandcloud.cn})~高级研究员，前中国移动研究院大云团队核心开发成员，分布式存储系统开发者，接近~4~年的~Hadoop HDFS~开发经验。超过10年的Linux使用与维护经验，熟练使用~C/C++, Java~等多种开发语言，Python, Perl~等脚本语言及各种Unix工具进行开发与日常维护工作。 
 
 \section{工作意向}
 
 位于北京的\textsc{ Apache Hadoop}平台相关的开发与维护工作，主要是HDFS相关的工作；或分布存储系统相关的研发工作。
 
 \section{当前工作}
+\textsf{盛大云计算高级研究员}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] \textbf{高级研究员~(软件开发)}\/ (2011年5月至今)，盛大云计算云硬盘~(EBS)~项目成员。服务于~2011年7月末上线试运行，2011年10月提供商业服务，并仍在持续改进中。
+\begin{list2}
+\vspace*{.05in}
+\item 2012年3月~(下周四), (将)~在北邮介绍云计算的概念与实践，及其对移动互联网的影响；
+\item 2011年10月于杭州，主持~InfoQ~主办的~QCon~杭州大会的云计算主题~\\ \hindent\href{http://qconhangzhou.com/track_7.html}{\tt\http{}qconhangzhou.com/track$\underline{}$7.html}
+\item 2011年9月，在~CSDN~的~CTO~俱乐部上介绍了盛大云计算~\\ \hindent\href{http://cto.csdn.net/Activities/4832}{\tt\http{}cto.csdn.net/Activities/4832}
+\end{list2}
+\end{list1}
+
+
+\section{过往工作}
 \textsc{Hadoop }\textsf{相关工作}\\
 \vspace*{-.1in}
 \begin{list1}
-\item[] 中国移动研究院研究员/项目经理(2007年7月至今)，负责{\sc Hadoop HDFS}相关开发维护工作以及开源社区交流工作，包括Hadoop的评估测试、问题修复、功能改进等(Apache JIRA ID \href{https://issues.apache.org/jira/secure/ViewProfile.jspa?name=gnawux}{gnawux})：
+\item[] 中国移动研究院研究员/项目经理(2007年7月至2011年5月)，负责{\sc Hadoop HDFS}相关开发维护工作以及开源社区交流工作，包括Hadoop的评估测试、问题修复、功能改进等(Apache JIRA ID \href{https://issues.apache.org/jira/secure/ViewProfile.jspa?name=gnawux}{gnawux})：
 \begin{list2}
 \vspace*{.05in}
 \item 2010-2011年，为Trunk提交磁盘刷新功能补丁\href{https://issues.apache.org/jira/browse/HDFS-1362}{\tt HDFS-1362}；
 \item 2008年，提交补丁\href{https://issues.apache.org/jira/browse/HADOOP-4742}{\tt HADOOP-4742}，修复Hadoop 0.18丢失数据块副本的严重Bug；
-\item 2008年4月至今，维护中国移动研究院的 Hadoop 分支，包含多NameNode同步补丁；\\
-          \hindent\href{http://github.com/gnawux/hadoop-cmri}{\tt\http{}github.com/gnawux/hadoop-cmri}
+\item 2008年4月至2011年5月，维护中国移动研究院的 Hadoop 分支，包含多NameNode同步补丁： \href{http://github.com/gnawux/hadoop-cmri}{\tt\http{}github.com/gnawux/hadoop-cmri}
 \item 2008-2009年，开发并维护中国移动研究院的 Hadoop 测试工具（Python）；\\
           \hindent\href{http://code.google.com/p/hadoop-test/}{\tt\http{}code.google.com/p/hadoop-test/} 
 \item 2010年9月，参加Hadoop in China，介绍中国移动研究院的Hadoop开发情况；\\
           \hindent\href{http://wangxu.me/blog/p/445}{\tt \http{}wangxu.me/blog/p/445}
-\item 2009 年 11 月参加 \href{http://wiki.apache.org/apachecon/ApacheRoadshowAsia09Beijing}{Apache Roadshow Asia 2009}，介绍中国移动研究院在 HDFS 方面的工作；
+\item 2009年11月参加 \href{http://wiki.apache.org/apachecon/ApacheRoadshowAsia09Beijing}{Apache Roadshow Asia 2009}，介绍中国移动研究院在 HDFS 方面的工作；
 \item 开发工作部分记录：\enskip {\href{http://gnawux.info/hadoop/}{\tt \http{}gnawux.info/hadoop/}}
 \end{list2}
 \end{list1}
 
-\textsf{其他工作}\\
+\textsf{云存储、}\textsc{Linux}~\textsf{及其他开源相关工作}\\
 \vspace*{-.1in}
 \begin{list2}
-\item 【Linux集群管理】 \enskip 2010年至今，中国移动通信研究院大云平台系统管理员，负责系统配置维护、性能优化，涉及到虚拟化平台和Hadoop平台。
 \item 【云存储】 \enskip 2010年至今， 项目经理与设计人员，负责中国移动研究院的云存储项目。
-\item 【书】 \enskip 负责中国移动研究院云计算技术相关图书编写工作。
-\item 【译】 \enskip 业余时间翻译{\it Cassandra: The Definitive Guide}\/一书，预计将于2011年4月完成，由图灵图书出版。
+\item 【Linux集群管理】 \enskip 2010年至今，中国移动通信研究院大云平台系统管理员，负责系统配置维护、性能优化，涉及到虚拟化平台和Hadoop平台。
+\item 【活动】\enskip \href{http://linuxfb.org}{LinuxFB/北邮 BBS Linux 每月聚会活动}联合发起人和组织者。
+\item 【\LaTeX】\enskip 2007 年制作并发布了\href{http://code.google.com/p/latex-bupt}{北邮研究生毕业论文 \LaTeX 模板第一版}的代码、样例和说明。
 \end{list2}
 
-\section{过往工作}
 
-\textsc{Linux}\textsf{及其他开源相关工作} \\
+\textsf{写作与翻译} \\
 \vspace*{-.1in}
 \begin{list2}
-\item 【书】\enskip \href{http://wangxu.me/blog/p/tag/unleashed}{《Debian 标准教程》}, 2004-2008年持续更新、完善，最终于2009年9月由人民邮电出版社出版。
-\item 【活动】\enskip \href{http://linuxfb.org}{LinuxFB/北邮 BBS Linux 每月聚会活动}联合发起人和组织者。
-\item 【文章】\enskip 常年在业余时间写/译关于 Linux Kernel, 文件系统，虚拟化, NoSQL 等内容的技术文章，发于 \href{http://wangxu.me/blog/}{个人网站 \http{}wanxu.me/blog/}，其中关于 Zookeeper 的译文发于《程序员》 2010 年第 2 期。
-\item 【\LaTeX】\enskip 2007 年制作并发布了\href{http://code.google.com/p/latex-bupt}{北邮研究生毕业论文 \LaTeX 模板第一版}的代码、样例和说明。
-\item 【编辑】\enskip 2004年曾担任 LinuxFocus (随 Linux 文档项目 (LDP) 发布的一份自由多语言杂志) 志愿编辑，负责管理中文部分的页面，同时还负责翻译和撰写技术文章。
+\item 业余时间翻译\href{http://wangxu.me/blog/cassandra-the-definitive-guide}{《Cassandra~权威指南》}一书，已于2011年8月出版；
+\item 先以电子版形式于2004-2008年间写作、维护\href{http://wangxu.me/blog/unleashed-debian}{《Debian 标准教程》}，并最终于2009年9月由出版；
+\item 常年在业余时间写、译关于 Linux Kernel, 文件系统，虚拟化, NoSQL 等内容的技术文章，发布于 \href{http://wangxu.me/blog/}{个人网站}及杂志。
 \end{list2}
 
 \textsf{培训讲师} \hfill \textsf{2005 年至 2007 年}\\
 在北京、广东、武汉、天津等地为多家运营商、开发商进行 Linux 和 3G (WCDMA/TD-SCDMA) 的核心网、业务及无线接入网相关员工培训和认证培训。
-
-\textsf{软件开发人员}\hfill \textsf{2002 年至 2004 年}\\
-\vspace*{-.1in}
-\begin{list1}
-\item[]  参与星河亮点通信软件有限公司 PHS 路测软件开发(Visual C++，核心开发人员)和移动Agent相关国家项目(Java，项目组长)。
-\end{list1}
-
 
 \section{教育背景}
 \textsf{北京邮电大学}\\
@@ -166,18 +170,21 @@
 \item[] NoSQL、Hadoop 与 Java 相关技术文章翻译：
 \begin{list2}
 \vspace*{.05in}
+\item ZooKeeper Watches \href{http://wangxu.me/blog/p/546}{\tt\http{}wangxu.me/blog/p/546}
 \item Cassandra 实例 \href{http://wangxu.me/blog/p/383}{\tt\http{}wangxu.me/blog/p/383}
 \item Observers: 让ZooKeeper更具可伸缩性: \href{http://wangxu.me/blog/p/320}{\tt\http{}wangxu.me/blog/p/320}
 \item Avro: 大数据的数据格式: \href{http://wangxu.me/blog/p/279}{\tt\http{}wangxu.me/blog/p/279}
 \item Java SE 6 Hotspot${\,}^{TM}$ 虚拟机垃圾回收调优: \href{http://wangxu.me/blog/p/209}{\tt\http{}wangxu.me/blog/p/209}
 \vspace*{.05in}
 \end{list2}
-\item[] Linux 内核与图形相关以及其他软件相关技术文章翻译：
+\item[] Linux 内核、文件系统以及其他软件相关技术文章翻译：
 \begin{list2}
 \vspace*{.05in}
+\item LWN: Flushing out the pdflush: \href{http://wangxu.me/blog/p/610}{\tt\http{}wangxu.me/blog/p/610}
+\item LWN: Ext4~新进展: bigalloc, inline data, and metadata checksums: \\ \hindent \href{http://wangxu.me/blog/p/604}{\tt\http{}wangxu.me/blog/p/604}
+\item LWN: SCSI target~双城记: \href{http://wangxu.me/blog/p/586}{\tt \http{}wangxu.me/blog/p/586}
 \item LWN: 空指针的乐趣（1）: \href{http://wangxu.me/blog/p/39}{\tt\http{}wangxu.me/blog/p/39}
 \item KernelTrap: Linux: The Journaling Block Device: \href{http://wangxu.me/blog/p/151}{\tt\http{}wangxu.me/blog/p/151}
-\item LWN: GEM vs. TTM: \href{http://wangxu.me/blog/p/124}{\tt\http{}wangxu.me/blog/p/124}
 \item LWN: What is RCU, Fundamentally?: \href{http://wangxu.me/blog/p/122}{\tt\http{}wangxu.me/blog/p/122}
 \end{list2}
 \end{list1}
@@ -187,7 +194,8 @@
 
 \vfill
 \vfill
-\mbox{ }\hspace{100pt}	\small\Resume\ Generated with \hologo{XeLaTeX}
+\mbox{ }\hspace{100pt}	\small\Resume\ Generated with \hologo{XeLaTeX}\\
+\mbox{ }\hspace{60pt}	\small\Resume\ hosted: \href{http://github.com/gnawux/resume/}{\tt\http{}github.com/gnawux/resume/}
 
 \end{document}
 
